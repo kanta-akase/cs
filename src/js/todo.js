@@ -13,7 +13,7 @@ const addTask = task => {
   const listItem = document.createElement('li');
   const removeButton = document.createElement('button');
 
-  removeButton.innerText = '削除';
+  removeButton.innerText = 'delete cs';
   removeButton.addEventListener('click', () => removeTask(removeButton));
 
   listItem.innerText = task;
